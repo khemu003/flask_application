@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Page</title>
+    <style>
+        .btn1{
+            background-color:rgb(96, 165, 100);
+            border:2px solid black;
+            color: white;
+            border-radius:20px;
+            width:100px;
+            padding:12px;
+            font-weight:bold;
+            margin:20px;
+            cursor:pointer;
+
+        }
+        .btn1:hover{
+            background-color: rgb(70, 142, 73);
+        }
+        .btn1 a{
+            text-decoration:none;
+            color:white;
+            font-weight:bold;
+        }
+        .box{
+            width:100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <button type="submit"   class="btn1"><a href="http://127.0.0.1:5000/group/amount">GroupBy</a></button>
+    <button type="submit"   class="btn1"><a href="http://127.0.0.1:5000/top5/amount">Top5</a></button>
+</div>
+</body>
+</html>
