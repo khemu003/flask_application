@@ -13,7 +13,9 @@ Run the requirements.txt file using this command
 Step.5 -> Create a [database.py](database.py) that connect mysql with python
 
 Step-6 -> Create two directory(folder)
+
     1. templates -> that hold all the html pages
+    
     2. static -> that hold the all file that we need for redirecting using path like image
 
 step-7 -> Create a flask file  [app.py](app.py) that hold all route
