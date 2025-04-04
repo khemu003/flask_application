@@ -1,6 +1,5 @@
 from database import get_connector
 import matplotlib.pyplot as plt
-
 import pandas as pd
 
 def fetch_db():
