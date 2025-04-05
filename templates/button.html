@@ -36,7 +36,7 @@
         function navigateTo(url) {
             var columnName = document.getElementById("columnInput").value;
             if (columnName) {
-                window.location.href = url.replace("COLUMN_NAME", columnName);
+                window.location.href = url.replace("column_name", columnName);
             } else {
                 alert("Please enter a column name.");
             }
@@ -46,9 +46,9 @@
 <body>
     <div class="box">
         <input type="text" id="columnInput" placeholder="Enter Column Name">
-        <button class="btn1" onclick="navigateTo('http://127.0.0.1:5000/group/COLUMN_NAME')">GroupBy</button>
-        <button class="btn1" onclick="navigateTo('http://127.0.0.1:5000/top5/COLUMN_NAME')">Top5</button>
-        <button class="btn1" onclick="navigateTo('http://127.0.0.1:5000/pie/COLUMN_NAME')">Pie</button>
+        <button class="btn1" onclick="navigateTo('http://127.0.0.1:5000/group/column_name')">GroupBy</button>
+        <button class="btn1" onclick="navigateTo('http://127.0.0.1:5000/top5/column_name')">Top5</button>
+        <button class="btn1" onclick="navigateTo('http://127.0.0.1:5000/pie/column_name')">Pie</button>
     </div>
 </body>
 </html>
